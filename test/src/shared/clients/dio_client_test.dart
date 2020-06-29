@@ -1,8 +1,8 @@
 import 'package:flutter_test/flutter_test.dart';
-import 'package:projectbasesnow/projectbasesnow.dart';
 import 'package:mobx/mobx.dart';
-import 'package:nasa_photos/src/shared/clients/dio_client.dart';
 import 'package:nasa_photos/app_flavor_values.dart';
+import 'package:nasa_photos/src/shared/clients/dio_client.dart';
+import 'package:projectbasesnow/projectbasesnow.dart';
 
 void main() {
   DioClient dio;

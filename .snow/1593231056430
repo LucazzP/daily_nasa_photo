@@ -1,0 +1,7 @@
+lib/src/modules/photo_of_day/pages/photo_details/photo_details_page.dart
+test/src/modules/photo_of_day/pages/photo_details/photo_details_page_test.dart
+lib/src/modules/photo_of_day/pages/photo_details/photo_details_controller.dart
+MODIFIED:lib/src/modules/photo_of_day/photo_of_day_module.dart
+test/src/modules/photo_of_day/pages/photo_details/photo_details_controller_test.dart
+lib/src/i18n/modules/photo_of_day/pages/photo_details_i18n.dart
+test/src/i18n/modules/photo_of_day/pages/photo_details_i18n_test.dart

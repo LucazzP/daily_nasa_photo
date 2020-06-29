@@ -1,4 +1,5 @@
 import 'package:dio/dio.dart';
+import 'package:projectbasesnow/dio/interceptors/cache_interceptor.dart';
 
 import 'package:projectbasesnow/dio/interceptors/log_interceptor.dart' as log;
 import 'package:nasa_photos/src/shared/constants/constants.dart';
@@ -12,12 +13,8 @@ class DioClient {
     _dio.options.receiveTimeout = 10000;
 
     _dio.interceptors.add(log.LogInterceptor());
+    _dio.interceptors.add(CacheInterceptor());
     _dio.options.baseUrl = flavor.baseUrl;
-
-    _dio.options.headers.addAll({
-      "Authorization":
-          "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiaXNBZG1pbiI6dHJ1ZSwiaWF0IjoxNTkwNzc1NjQ2LCJleHAiOjE1OTMzNjc2NDZ9.CP_xj_cdDlLtw0YuWbD-fKvvn-HDN52rAYmNu3j2CC4"
-    });
   }
 
   Future<T> delete<T>(

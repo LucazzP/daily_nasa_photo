@@ -99,6 +99,13 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "7.1.0"
+  cached_network_image:
+    dependency: "direct main"
+    description:
+      name: cached_network_image
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "2.2.0+1"
   catcher:
     dependency: transitive
     description:
@@ -230,6 +237,13 @@ packages:
     description: flutter
     source: sdk
     version: "0.0.0"
+  flutter_cache_manager:
+    dependency: transitive
+    description:
+      name: flutter_cache_manager
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "1.4.1"
   flutter_localizations:
     dependency: transitive
     description: flutter
@@ -243,7 +257,7 @@ packages:
     source: hosted
     version: "0.5.1"
   flutter_mobx:
-    dependency: transitive
+    dependency: "direct main"
     description:
       name: flutter_mobx
       url: "https://pub.dartlang.org"
@@ -351,7 +365,7 @@ packages:
     source: hosted
     version: "1.4.1"
   intl:
-    dependency: transitive
+    dependency: "direct main"
     description:
       name: intl
       url: "https://pub.dartlang.org"
@@ -385,6 +399,13 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "3.3.0"
+  lazy_load_refresh_indicator:
+    dependency: "direct main"
+    description:
+      name: lazy_load_refresh_indicator
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "1.0.0+1"
   logging:
     dependency: transitive
     description:
@@ -421,7 +442,7 @@ packages:
     source: hosted
     version: "0.9.6+3"
   mobx:
-    dependency: transitive
+    dependency: "direct main"
     description:
       name: mobx
       url: "https://pub.dartlang.org"
@@ -556,12 +577,10 @@ packages:
   projectbasesnow:
     dependency: "direct main"
     description:
-      path: "."
-      ref: HEAD
-      resolved-ref: "2c360d2e5122112a08ac53fe8356ed0135a26eff"
-      url: "https://gitlab.com/snowman-labs/flutter-devs/project_base_snow.git"
-    source: git
-    version: "0.0.1"
+      path: "C:/dev/projects/flutter/plugins/project_base_snow/"
+      relative: false
+    source: path
+    version: "0.1.0"
   pub_semver:
     dependency: transitive
     description:
@@ -576,6 +595,13 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "0.1.5"
+  pull_to_refresh:
+    dependency: "direct main"
+    description:
+      name: pull_to_refresh
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "1.6.0"
   quiver:
     dependency: transitive
     description:
@@ -590,6 +616,13 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "0.0.7"
+  rxdart:
+    dependency: transitive
+    description:
+      name: rxdart
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "0.24.1"
   sentry:
     dependency: transitive
     description:
@@ -639,6 +672,20 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "0.2.3"
+  shimmer:
+    dependency: "direct main"
+    description:
+      name: shimmer
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "1.1.1"
+  simple_search_bar:
+    dependency: "direct main"
+    description:
+      name: simple_search_bar
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "0.1.7"
   sky_engine:
     dependency: transitive
     description: flutter
@@ -756,6 +803,13 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "3.4.1"
+  uuid:
+    dependency: transitive
+    description:
+      name: uuid
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "2.1.0"
   vector_math:
     dependency: transitive
     description:

@@ -10,10 +10,15 @@ class ErrorMapper {
           )
         : e is AppException
             ? e
-            : AppException(
-                exception: e,
-                message: e.toString(),
-              );
+            : e is Exception
+                ? AppException(
+                    exception: e,
+                    message: (e as dynamic).message,
+                  )
+                : AppException(
+                    exception: e,
+                    message: e.toString(),
+                  );
   }
 
   static String _dioError(DioError error) {
@@ -50,6 +55,9 @@ class ErrorMapper {
           break;
         default:
       }
+    }
+    if (error.message.contains("SocketException")) {
+      return "Falha de conexão, verifique sua internet";
     }
     return "Erro na requisição, tente novamente";
   }

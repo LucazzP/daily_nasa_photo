@@ -1,0 +1,2 @@
+lib/src/modules/photo_of_day/widgets/photo_tile/photo_tile_widget.dart
+test/src/modules/photo_of_day/widgets/photo_tile/photo_tile_widget_test.dart

@@ -1,27 +1,25 @@
-import 'package:projectbasesnow/projectbasesnow.dart';
-
 import 'package:nasa_photos/app_flavor_values.dart';
-import 'features.dart';
+import 'package:projectbasesnow/projectbasesnow.dart';
 
 abstract class Constants {
   static AppFlavorValues get flavor => FlavorConfig.values();
 
   static final flavorDev = AppFlavorValues(
-    baseUrl: localhost,
-    features: () => Features.devRemote,
+    baseUrl: baseUrl,
+    features: () => null,
   );
 
   static final flavorQa = AppFlavorValues(
-    baseUrl: localhost,
-    features: () => Features.qaRemote,
+    baseUrl: baseUrl,
+    features: () => null,
   );
 
   static final flavorProd = AppFlavorValues(
-    baseUrl: localhost,
-    features: () => Features.prodRemote,
+    baseUrl: baseUrl,
+    features: () => null,
   );
 
-  static const localhost = 'http://10.0.2.2:1337';
+  static const baseUrl = 'https://api.nasa.gov';
 }
 
 AppFlavorValues get flavor => Constants.flavor;
