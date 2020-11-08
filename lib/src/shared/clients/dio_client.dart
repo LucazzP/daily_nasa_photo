@@ -1,7 +1,5 @@
 import 'package:dio/dio.dart';
-import 'package:projectbasesnow/dio/interceptors/cache_interceptor.dart';
-
-import 'package:projectbasesnow/dio/interceptors/log_interceptor.dart' as log;
+import 'package:flutter_snow_base/flutter_snow_base.dart' as snowBase;
 import 'package:nasa_photos/src/shared/constants/constants.dart';
 
 class DioClient {
@@ -12,8 +10,8 @@ class DioClient {
     _dio.options.sendTimeout = 10000;
     _dio.options.receiveTimeout = 10000;
 
-    _dio.interceptors.add(log.LogInterceptor());
-    _dio.interceptors.add(CacheInterceptor());
+    _dio.interceptors.add(snowBase.LogInterceptor());
+    _dio.interceptors.add(snowBase.CacheInterceptor());
     _dio.options.baseUrl = flavor.baseUrl;
   }
 

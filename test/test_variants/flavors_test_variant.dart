@@ -1,6 +1,6 @@
 import 'package:flutter_test/flutter_test.dart';
 import 'package:nasa_photos/src/shared/constants/constants.dart';
-import 'package:projectbasesnow/projectbasesnow.dart';
+import 'package:flutter_snow_base/flutter_snow_base.dart';
 
 class FlavorsTestVariant implements TestVariant<FlavorConfig Function()> {
   @override

@@ -15,14 +15,14 @@ class PhotoOfDayModule extends ChildModule {
       ];
 
   @override
-  List<Router> get routers => [
-        Router(
+  List<ModularRouter> get routers => [
+        ModularRouter(
           Modular.initialRoute,
           child: (_, args) => I18n(
             child: PhotoOfDayPage(),
           ),
         ),
-        Router(
+        ModularRouter(
           '/details',
           child: (_, args) => PhotoDetailsPage(
             photo: args.data,

@@ -1,5 +1,5 @@
 import 'package:dio/dio.dart';
-import 'package:projectbasesnow/projectbasesnow.dart';
+import 'package:flutter_snow_base/flutter_snow_base.dart';
 
 class ErrorMapper {
   static AppException from(Exception e) {

@@ -12,8 +12,8 @@ class AppModule extends MainModule {
       ];
 
   @override
-  List<Router> get routers => [
-        Router(Modular.initialRoute, module: PhotoOfDayModule()),
+  List<ModularRouter> get routers => [
+        ModularRouter(Modular.initialRoute, module: PhotoOfDayModule()),
       ];
 
   @override

@@ -5,7 +5,7 @@ import 'package:nasa_photos/src/modules/photo_of_day/models/media_type.dart';
 import 'package:nasa_photos/src/modules/photo_of_day/models/photo_model.dart';
 import 'package:nasa_photos/src/modules/photo_of_day/widgets/photo_of_day_list/photo_of_day_list_widget.dart';
 import 'package:nasa_photos/src/modules/photo_of_day/widgets/photo_tile/photo_tile_widget.dart';
-import 'package:projectbasesnow/projectbasesnow.dart';
+import 'package:flutter_snow_base/flutter_snow_base.dart';
 
 import '../../../../../test_variants/flavors_test_variant.dart';
 
@@ -224,9 +224,7 @@ main() {
       );
 
       final findLoadingTiles = find.byWidgetPredicate(
-        (widget) =>
-            widget is PhotoTileWidget &&
-            widget.isLoading,
+        (widget) => widget is PhotoTileWidget && widget.isLoading,
       );
 
       expect(findListViewLoading, findsOneWidget);

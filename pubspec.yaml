@@ -25,10 +25,13 @@ description: 'A new Flutter project. Created by Snowman Labs with Flutter Snow B
 version: 2020.1.0+1
 
 environment:
-  sdk: '>=2.7.0 <3.0.0'
+  sdk: '>=2.10.0 <3.0.0'
 
 
 dependencies:
+  google_fonts: ^1.1.1
+  flutter_snow_base: ^0.1.5+1
+  flutter_modular: ^2.0.1
   lazy_load_refresh_indicator: ^1.0.0+1
   simple_search_bar: ^0.1.7
   shimmer: ^1.1.1
@@ -37,12 +40,7 @@ dependencies:
   flutter_mobx: ^1.1.0+1
   mobx: ^1.2.1+1
   dio: ^3.0.9
-  flutter_modular: ^1.2.7+1
   i18n_extension: ^1.4.1
-  projectbasesnow:
-    git:
-      url: https://gitlab.com/snowman-labs/flutter-devs/project_base_snow.git
-      ref: v0.0.1
   flutter:
     sdk: flutter
 

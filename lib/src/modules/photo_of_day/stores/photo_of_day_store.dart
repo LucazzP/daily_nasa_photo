@@ -1,8 +1,7 @@
 import 'package:mobx/mobx.dart';
 import 'package:nasa_photos/src/modules/photo_of_day/models/photo_model.dart';
 import 'package:nasa_photos/src/modules/photo_of_day/repositories/photo_of_day_repository.dart';
-import 'package:projectbasesnow/models/status.dart';
-import 'package:projectbasesnow/projectbasesnow.dart';
+import 'package:flutter_snow_base/flutter_snow_base.dart';
 
 part 'photo_of_day_store.g.dart';
 

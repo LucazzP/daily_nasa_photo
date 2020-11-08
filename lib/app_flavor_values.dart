@@ -1,5 +1,5 @@
 import 'package:flutter/foundation.dart';
-import 'package:projectbasesnow/projectbasesnow.dart';
+import 'package:flutter_snow_base/flutter_snow_base.dart';
 
 class AppFlavorValues implements FlavorValues {
   const AppFlavorValues({

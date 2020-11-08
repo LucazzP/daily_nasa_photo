@@ -1,7 +1,7 @@
 import 'package:intl/intl.dart';
 import 'package:nasa_photos/src/modules/photo_of_day/models/photo_model.dart';
 import 'package:nasa_photos/src/shared/clients/dio_client.dart';
-import 'package:projectbasesnow/projectbasesnow.dart';
+import 'package:flutter_snow_base/flutter_snow_base.dart';
 
 import 'photo_of_day_repository.dart';
 

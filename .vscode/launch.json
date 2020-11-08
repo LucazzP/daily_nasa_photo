@@ -75,6 +75,12 @@
             "args": [
                 "--release"
             ]
+        },
+        {
+            "name": "All Tests",
+            "type": "dart",
+            "request": "launch",
+            "program": "tests/",
         }
     ]
 }

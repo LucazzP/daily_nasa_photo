@@ -2,7 +2,7 @@ import 'package:flutter_test/flutter_test.dart';
 import 'package:mobx/mobx.dart';
 import 'package:nasa_photos/app_flavor_values.dart';
 import 'package:nasa_photos/src/shared/clients/dio_client.dart';
-import 'package:projectbasesnow/projectbasesnow.dart';
+import 'package:flutter_snow_base/flutter_snow_base.dart';
 
 void main() {
   DioClient dio;

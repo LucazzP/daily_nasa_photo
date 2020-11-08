@@ -4,8 +4,7 @@ import 'package:lazy_load_refresh_indicator/lazy_load_refresh_indicator.dart';
 import 'package:nasa_photos/src/i18n/modules/photo_of_day/photo_of_day_i18n.dart';
 import 'package:nasa_photos/src/modules/photo_of_day/models/photo_model.dart';
 import 'package:nasa_photos/src/modules/photo_of_day/widgets/photo_tile/photo_tile_widget.dart';
-import 'package:projectbasesnow/models/status.dart';
-import 'package:projectbasesnow/projectbasesnow.dart';
+import 'package:flutter_snow_base/flutter_snow_base.dart';
 
 class PhotoOfDayListWidget extends StatelessWidget {
   PhotoOfDayListWidget({
