@@ -80,7 +80,7 @@
             "name": "All Tests",
             "type": "dart",
             "request": "launch",
-            "program": "tests/",
+            "program": "test/",
         }
     ]
 }

@@ -7,6 +7,16 @@ import 'dart:convert';
 import 'media_type.dart';
 
 class PhotoModel {
+  final DateTime date;
+  final String explanation;
+  final MediaType mediaType;
+  final String serviceVersion;
+  final String thumbnailUrl;
+  final String title;
+  final String url;
+  final String hdurl;
+  final String copyright;
+  
   const PhotoModel({
     this.date,
     this.explanation,
@@ -18,16 +28,6 @@ class PhotoModel {
     this.hdurl,
     this.copyright,
   });
-
-  final DateTime date;
-  final String explanation;
-  final MediaType mediaType;
-  final String serviceVersion;
-  final String thumbnailUrl;
-  final String title;
-  final String url;
-  final String hdurl;
-  final String copyright;
 
   String get imageUrl {
     switch (mediaType) {
@@ -98,4 +98,9 @@ class PhotoModel {
         "hdurl": hdurl == null ? null : hdurl,
         "copyright": copyright == null ? null : copyright,
       };
+
+  @override
+  String toString() {
+    return 'PhotoModel(date: $date)\n';
+  }
 }
